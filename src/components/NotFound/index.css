@@ -1,0 +1,28 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.not-found-heading {
+  color: #1e293b;
+}
+.not-found-description {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  color: #475569;
+}
+.home-page-button {
+  background: #f7931e;
+  border-radius: 8px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: white;
+}

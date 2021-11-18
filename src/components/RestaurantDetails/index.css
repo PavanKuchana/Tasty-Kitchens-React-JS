@@ -1,0 +1,142 @@
+.restaurant-details-container {
+  display: flex;
+  background-color: #333333;
+}
+.restaurant-details-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.restaurant-detail-image {
+  height: 120px;
+  width: 140px;
+  margin-right: 20px;
+}
+.restaurant-details-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: -5px;
+}
+.restaurant-details-cuisine {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: -5px;
+}
+
+.restaurant-location {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: -5px;
+}
+.details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.restaurant-details-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.restaurant-ratings-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+}
+.vertical-line {
+  height: 50px;
+  border: 1px solid #e2e8f0;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.rating-star {
+  color: #ffffff;
+  margin-right: 5px;
+}
+.ratings {
+  font-family: DM Sans;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.ratings-count {
+  font-family: DM Sans;
+  font-weight: normal;
+  font-size: 14px;
+  color: #e2e8f0;
+  margin-bottom: 20px;
+}
+.cost {
+  color: #ffffff;
+  font-family: DM Sans;
+  font-weight: bold;
+  font-size: 16px;
+}
+.cost-for-two {
+  font-family: DM Sans;
+  font-weight: normal;
+  font-size: 14px;
+  color: #e2e8f0;
+  margin-bottom: 15px;
+}
+.food-item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+
+.restaurants-details-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-details-container {
+    padding: 40px;
+  }
+  .restaurant-detail-image {
+    width: 440px;
+    height: 280px;
+    margin-left: 80px;
+  }
+  .restaurant-details-heading {
+    margin-top: 30px;
+    font-size: 32px;
+  }
+  .restaurant-details-cuisine {
+    font-size: 16px;
+  }
+
+  .location {
+    font-size: 16px;
+  }
+  .food-item-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+  }
+}

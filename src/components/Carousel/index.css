@@ -1,0 +1,15 @@
+.carousel-image {
+  width: 100%;
+  height: 34vh;
+}
+
+.carousel-container {
+  padding: 0px;
+  margin: 0px;
+}
+.carousel-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
